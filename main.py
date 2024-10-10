@@ -10,7 +10,11 @@ suffix:str = config["suffix"]
 
 tasks:list[dict[str, str|list[str]]] = config["tasks"]
 
-os.makedirs("./build", exist_ok=True)
+build_dir = "./build"
+download_dir = "./cache"
+
+os.makedirs(build_dir, exist_ok=True)
+os.makedirs(download_dir, exist_ok=True)
 
 count = 0
 for task in tasks:
@@ -18,13 +22,16 @@ for task in tasks:
   print(f"[{count}] start download... {url}")
   filename = downloader.download(
     suffix = suffix,
-    url = task["download_url"],
+    url = url,
+    dir = download_dir,
   )
   print(f"[{count}] finish download {filename}")
 
   print(f"[{count}] start rewrite_jar...")
   rewrite_jar.rewrite(
     jar_path = filename,
+    build_dir = build_dir,
+    download_dir = download_dir,
     version_suffix = suffix,
     mixin_json_path = task["json"],
     
