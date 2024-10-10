@@ -1,9 +1,9 @@
 suffix: "+vulpeus"
 
 tasks:
-  # 
+  #
   # Carpet TIS Addition
-  # 
+  #
   - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.2-mc1.21.1.jar
     json: carpet-tis-addition.mixins.json
     mixins:
@@ -53,3 +53,129 @@ tasks:
     json: carpet-tis-addition.mixins.json
     mixins:
       - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  #
+  # Carpet Fixes
+  #
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.17.0/carpet-fixes-1.20-1.17.0.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.16.1/carpet-fixes-1.20-1.16.1.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.15.2/carpet-fixes-1.20-1.15.2.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.14.1/carpet-fixes-1.19.4-1.14.1.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.13.0/carpet-fixes-1.19.3-1.13.0.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.12.2/carpet-fixes-1.19-1.12.2.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.11.2/carpet-fixes-1.19-1.11.2.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.10.0/carpet-fixes-1.19-1.10.0.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.9.2/carpet-fixes-1.19-1.9.2.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  - download_url: https://github.com/FxMorin/carpet-fixes/releases/download/v1.7.11/carpet-fixes-1.18.x-1.7.11.jar
+    json: carpet-fixes.mixins.json
+    mixins:
+      - playerFixes.PlayerEntity_absorptionMixin
+      - coreSystemFixes.updateSuppression.MinecraftServer_crashFixMixin
+
+  #
+  # Carpet
+  #
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.147/fabric-carpet-1.21-1.4.147+v240613.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.141/fabric-carpet-1.20.6-1.4.141+v240429.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.140/fabric-carpet-1.20.5-1.4.140+v240423.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.119/fabric-carpet-1.20.2-1.4.119+v230928.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.112/fabric-carpet-1.20-1.4.112+v230608.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.101/fabric-carpet-1.19.4-1.4.101+v230319.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.96/fabric-carpet-1.19.3-1.4.96+v230201.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.84/fabric-carpet-1.19.2-1.4.84+v221018.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.79/fabric-carpet-1.19-1.4.79+v220607.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.69/fabric-carpet-1.18.2-1.4.69+v220331.jar
+    json: carpet.mixins.json
+    mixins:
+      - NaturalSpawnerMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.57/fabric-carpet-1.18.1-1.4.57+v220119.jar
+    json: carpet.mixins.json
+    mixins:
+      - spawnHelperMixin
+
+  - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.57/fabric-carpet-1.17.1-1.4.57+v220119.jar
+    json: carpet.mixins.json
+    mixins:
+      - spawnHelperMixin
