@@ -21,10 +21,6 @@ for task in tasks:
     url = task["download_url"],
   )
   print(f"[{count}] finish download {filename}")
-  
-  if filename != "build/fabric-carpet-1.18.1-1.4.57+v220119+vulpeus.jar":
-    continue
-
 
   print(f"[{count}] start rewrite_jar...")
   rewrite_jar.rewrite(
