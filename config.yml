@@ -1,0 +1,55 @@
+suffix: "+vulpeus"
+
+tasks:
+  # 
+  # Carpet TIS Addition
+  # 
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.2-mc1.21.1.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.2-mc1.20.6.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.0-mc1.20.2.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.0-mc1.20.1.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.0-mc1.19.4.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.0-mc1.18.2.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.0-mc1.17.1.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.0-mc1.16.5.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.0-mc1.15.2.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
+
+  - download_url: https://github.com/TISUnion/Carpet-TIS-Addition/releases/download/v1.63.2/carpet-tis-addition-v1.63.0-mc1.14.4.jar
+    json: carpet-tis-addition.mixins.json
+    mixins:
+      - rule.yeetUpdateSuppressionCrash.yeet.MinecraftServerMixin
