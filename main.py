@@ -10,7 +10,7 @@ suffix:str = config["suffix"]
 
 tasks:list[dict[str, str|list[str]]] = config["tasks"]
 
-os.makedirs("./.builds", exist_ok=True)
+os.makedirs("./build", exist_ok=True)
 
 count = 0
 for task in tasks:

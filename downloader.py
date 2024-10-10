@@ -7,7 +7,7 @@ def download(suffix:str, url:str) -> str:
   parsed_url = urllib.parse.urlparse(url)
   name, ext = os.path.splitext(os.path.basename(parsed_url.path))
   
-  filename = f".builds/{name}{suffix}{ext}"
+  filename = f"build/{name}{suffix}{ext}"
 
   urlData = requests.get(url).content
 
