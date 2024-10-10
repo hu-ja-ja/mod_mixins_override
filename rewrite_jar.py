@@ -1,5 +1,4 @@
 import json
-from rich import print
 import zipfile
 
 def rewrite(jar_path:str, version_suffix:str, mixin_json_path:str, mixin_mixins: list[str], mixin_client: list[str], mixin_server: list[str]):
@@ -40,17 +39,3 @@ def rewrite(jar_path:str, version_suffix:str, mixin_json_path:str, mixin_mixins:
 
     with zip_ref.open(mixin_json_path, "w") as file:
       file.write(json.dumps(new_mixin_json).encode())
-
-
-  # with zipfile.ZipFile(zip_file_path, "r") as zip_ref:
-
-  #   with zip_ref.open("fabric.mod.json", "r") as file:
-  #     data = json.loads(file.read().decode("utf-8"))["version"]
-  #     print(data)
-
-  #   with zip_ref.open("carpet-tis-addition.mixins.json", "r") as file:
-  #     data = json.loads(file.read().decode("utf-8"))
-  #     print(data.get("mixins"))
-  #     print(data.get("client"))
-  #     print(data.get("server"))
-
