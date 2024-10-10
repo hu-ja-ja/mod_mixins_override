@@ -31,6 +31,9 @@ jobs:
       - name: Run Main
         run: python main.py
 
+      - name: Debug builded lists
+        run: ls -lah ./.builds
+
       - name: Artifact
         uses: actions/upload-artifact@v4.4.3
         with:
