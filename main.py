@@ -14,12 +14,12 @@ os.makedirs("./build", exist_ok=True)
 
 count = 0
 for task in tasks:
-  print(f"[{count}] start download...")
+  print(f"[{count}] start download... {task["download_url"]}")
   filename = downloader.download(
     suffix = suffix,
     url = task["download_url"],
   )
-  print(f"[{count}] finish download")
+  print(f"[{count}] finish download {filename}")
 
 
   print(f"[{count}] start rewrite_jar...")
