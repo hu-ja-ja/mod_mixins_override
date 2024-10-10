@@ -1,3 +1,4 @@
+import os
 import yaml
 import rewrite_jar
 import downloader
@@ -8,6 +9,8 @@ with open('config.yml', 'r') as yml:
 suffix:str = config["suffix"]
 
 tasks:list[dict[str, str|list[str]]] = config["tasks"]
+
+os.makedirs("./.builds", exist_ok=True)
 
 count = 0
 for task in tasks:
