@@ -168,13 +168,22 @@ tasks:
     json: carpet.mixins.json
     mixins:
       - NaturalSpawnerMixin
+      - Level_updateSuppressionCrashFixMixin
+      - MinecraftServer_updateSuppressionCrashFixMixin
+      - ServerPlayer_updateSuppressionCrashFixMixin
 
   - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.57/fabric-carpet-1.18.1-1.4.57+v220119.jar
     json: carpet.mixins.json
     mixins:
       - SpawnHelperMixin
+      - World_updateSuppressionCrashFixMixin
+      - MinecraftServer_updateSuppressionCrashFixMixin
+      - ServerPlayerEntity_updateSuppressionCrashFixMixin
 
   - download_url: https://github.com/gnembon/fabric-carpet/releases/download/1.4.57/fabric-carpet-1.17.1-1.4.57+v220119.jar
     json: carpet.mixins.json
     mixins:
       - SpawnHelperMixin
+      - World_updateSuppressionCrashFixMixin
+      - MinecraftServer_updateSuppressionCrashFixMixin
+      - ServerPlayerEntity_updateSuppressionCrashFixMixin
